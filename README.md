@@ -14,13 +14,13 @@ Model językowy nie generuje SQL i nie ma bezpośredniego dostępu do bazy danyc
 
 ## Główne komponenty
 
-* **Streamlit** — interfejs użytkownika.
-* **Python** — logika aplikacji.
-* **Orchestrator** — kontrola przepływu zapytania.
-* **MicroserviceManager** — uruchamianie raportów.
-* **Supabase/PostgreSQL** — baza danych i konfiguracja.
-* **LLM Connector** — komunikacja z modelem językowym.
-* **Analytical Tools** — proste obliczenia na danych.
+* **Streamlit** - interfejs użytkownika.
+* **Python** - logika aplikacji.
+* **Orchestrator** - kontrola przepływu zapytania.
+* **MicroserviceManager** - uruchamianie raportów.
+* **Supabase/PostgreSQL** - baza danych i konfiguracja.
+* **LLM Connector** - komunikacja z modelem językowym.
+* **Analytical Tools** - proste obliczenia na danych.
 
 ## Przepływ działania
 
@@ -28,12 +28,10 @@ Użytkownik wpisuje wiadomość w aplikacji. Streamlit przekazuje ją do Orchest
 
 Raporty korzystają z wcześniej przygotowanych zapytań SQL. Dane są potem przekazywane dalej jako:
 
-* **DataFrame** — do aplikacji i narzędzi Python,
-* **JSON** — do modelu językowego.
+* **DataFrame** - do aplikacji i narzędzi Python,
+* **JSON** - do modelu językowego.
 
 ## Konfiguracja
-
-Sekrety nie są zapisane w repozytorium. 
 
 Przykład:
 
